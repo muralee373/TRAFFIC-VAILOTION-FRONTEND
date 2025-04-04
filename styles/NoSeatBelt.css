@@ -1,0 +1,84 @@
+.no-seatbelt-container {
+    
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #f4efef;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+h3 {
+    color: #131212;
+    font-size: 22px;
+    border-bottom: 2px solid #efe8e8;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    color: #eee6e6;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.fine-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.fine-table th, .fine-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.fine-table th {
+    background: #d9534f;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.go-back {
+    background: #e4ce03;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pdf-btn{
+    background: #ffcc00;
+    color: black;   
+}
+
+.go-back:hover, .pdf-btn:hover {
+    background: #e82923;
+    transform: scale(1.05);
+}

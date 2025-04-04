@@ -1,0 +1,89 @@
+.overloading-container {
+    
+    color: rgb(30, 28, 28);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #f1ecec;
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #aca8a8;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #0275d8;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f1ecec;
+}
+
+.fine-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: #f1ecec;
+}
+
+.fine-table th, .fine-table td {
+    border: 1px solid #181818;
+    padding: 10px;
+    text-align: left;
+}
+
+.fine-table th {
+    background: #0275d8;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.go-back {
+    background: #d9534f;
+    color: white;
+}
+
+.go-back:hover {
+    background: #c9302c;
+}
+
+.download-pdf {
+    background: #5bc0de;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.download-pdf:hover {
+    background: #31b0d5;
+}

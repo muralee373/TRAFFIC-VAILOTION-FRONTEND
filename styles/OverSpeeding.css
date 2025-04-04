@@ -1,0 +1,100 @@
+.overspeeding-container {
+   
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.fine-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.fine-table th, .fine-table td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+.fine-table th {
+    background: #ff4444;
+    color: white;
+    font-weight: bold;
+}
+
+.fine-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.go-back {
+    background: #ff4444;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.go-back:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+}
+
+.go-back::before {
+    content: "\2190"; /* Adds the left arrow */
+    font-size: 20px;
+}
+
+.pdf-btn {
+    background: #ffd700;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.pdf-btn:hover {
+    background: #e6c200;
+    transform: scale(1.05);
+}

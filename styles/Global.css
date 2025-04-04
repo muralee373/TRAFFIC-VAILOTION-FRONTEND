@@ -1,0 +1,41 @@
+/* Apply common background to all pages */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  
+    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Common Container Styling */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  /* Global Card Design */
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Common Footer Styling */
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+  }
+  
